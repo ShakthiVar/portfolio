@@ -1,0 +1,58 @@
+/* Style the project rows */
+.navbar {
+    background-color: #1c1b1b;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+}.navbar ul {
+    list-style-type: none;
+}
+.navbar ul li {
+    display: inline;
+    margin-right: 30px;
+}
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+}
+.project-row {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+}
+
+/* Style the project description (left column) */
+.project-description {
+    flex: 1;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+/* Style the project image (right column) */
+.project-image {
+    flex: 1;
+    padding: 20px;
+}
+
+/* Additional styling for description text or image, if needed */
+.project-description p {
+    font-size: 22px;
+    line-height: 1.5;
+}
+.project-description h3 {
+    font-size: 25px;
+}
+
+.project-image img {
+    padding: 30px;
+    max-width: 60%;
+    height: 150px;
+    margin-left: 110px;
+}
+.span-col {
+	color: #e9762f;
+}

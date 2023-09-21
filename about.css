@@ -1,0 +1,66 @@
+
+
+.navbar {
+    background-color: #1c1b1b;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+}.navbar ul {
+    list-style-type: none;
+}
+.navbar ul li {
+    display: inline;
+    margin-right: 30px;
+}
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+}
+.navbar a img {
+    margin-right: 2px;
+    margin-left: -400px; /* Add some spacing between the icon and text */
+    width: 30px; /* Adjust the icon width */
+    height: 30px; /* Adjust the icon height */
+    vertical-align: middle; /* Vertically align the icon with the text */
+}
+/* Content section styles */
+.content-section {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Description section styles (Left) */
+.description-section {
+    flex: 1;
+    text-align: center;
+    padding: 100px;
+}
+
+.description-section h2 {
+    font-size: 36px;
+}
+
+.description-section p {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+/* Image section styles (Right) */
+.image-section {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+.image-section img {
+    padding: 30px;
+    max-width: 80%;
+    height: 400px;
+}
+.span-col {
+	color: #e9762f;;
+}
